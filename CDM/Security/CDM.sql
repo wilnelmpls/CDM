@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [CDM]
+    AUTHORIZATION [dbo];
+

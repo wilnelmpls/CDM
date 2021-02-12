@@ -1,0 +1,28 @@
+﻿CREATE TABLE [CDM].[CustomerProfile] (
+    [CustomerProfileID]       INT           IDENTITY (1, 1) NOT NULL,
+    [CustomerProfileSK]       VARCHAR (20)  NULL,
+    [SourceSystemID]          INT           NULL,
+    [Status]                  VARCHAR (30)  NULL,
+    [SourceCustomerProfileID] INT           NULL,
+    [PaymentTermsName]        VARCHAR (15)  NULL,
+    [SourceCollectorID]       INT           NULL,
+    [SourceCurrencyCode]      VARCHAR (30)  NULL,
+    [Name]                    VARCHAR (30)  NULL,
+    [ACDescription]           VARCHAR (240) NULL,
+    [TelephoneNumber]         VARCHAR (25)  NULL,
+    [ResourceType]            VARCHAR (30)  NULL,
+    [CreditChecking]          VARCHAR (1)   NULL,
+    [DunningLetters]          VARCHAR (1)   NULL,
+    [DunningType]             VARCHAR (30)  NULL,
+    [ProfileName]             VARCHAR (30)  NULL,
+    [Description]             VARCHAR (240) NULL,
+    [AccountStatus]           VARCHAR (30)  NULL,
+    [TRXCreditLimit]          DECIMAL (18)  NULL,
+    [OverallCreditLimit]      DECIMAL (18)  NULL,
+    [CreditHold]              VARCHAR (10)  NULL,
+    [CreateDTS]               DATETIME      NULL,
+    [UpdateDTS]               DATETIME      NULL,
+    PRIMARY KEY CLUSTERED ([CustomerProfileID] ASC),
+    CONSTRAINT [FK_CustomerProfile_To_SourceSystem] FOREIGN KEY ([SourceSystemID]) REFERENCES [CDM].[SourceSystem] ([SourceSystemID])
+);
+

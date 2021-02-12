@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CDM", "CDM\CDM.sqlproj", "{9070F2CC-8901-4EF1-83DB-01B5E8A6F26E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9070F2CC-8901-4EF1-83DB-01B5E8A6F26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9070F2CC-8901-4EF1-83DB-01B5E8A6F26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9070F2CC-8901-4EF1-83DB-01B5E8A6F26E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9070F2CC-8901-4EF1-83DB-01B5E8A6F26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9070F2CC-8901-4EF1-83DB-01B5E8A6F26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9070F2CC-8901-4EF1-83DB-01B5E8A6F26E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BD69515-3F2E-47AC-9FB4-E9044BFE0203}
+	EndGlobalSection
+EndGlobal
